@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  
+}
+
+.head {
+  height: 70%;
+  background-color: #ffcd9e;
+  border: 1px solid #ffcd9e;
+}
+
+footer {
+  color: white;
+  background-color:  #282828;
+  
+  height: 30vh;
+  padding-bottom: 2rem;
+}
+
+.footer-content-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:  #282828;
+  gap: 10%;
+}
+
+.heading {
+  margin: 3%;
+  font-size: 200%;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  /* border: 2px solid blue; */
+  height: 30%;
+  width: 40%;
+  color:  #282828;
+  
+}
+
+.secondheading {
+  margin: 3%;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  /* border: 2px solid blue; */
+  height: 10%;
+  width: 29%;
+  color:  #282828;
+  
+}
+
+.thirdheading {
+  margin: 3%;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  /* border: 2px solid blue; */
+  font-weight: bold;
+  height: 10%;
+  width: 28%;
+  color:  #282828;
+
+}
+.fourtheading,
+form {
+  margin: 3%;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+  border-radius: 2px solid  #282828;
+  color: #282828;
+
+  
+  /* height: 50%; */
+  /* width: 50%; */
+}
+.sixthheading {
+  margin-top: 1%;
+
+  margin-left: 6%;
+  margin-bottom: 4%;
+  /* border: 2px solid red; */
+  height: 70%;
+  width: 20%;
+  color:  #FFFFFF;
+  
+}
+
+#email {
+  height: 70%;
+  width: 20%;
+  padding: 1%;
+  border-radius: 2% solid  #282828;
+  border: 3px solid  #282828;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#butt {
+  height: 70%;
+  width: 15%;
+  padding: 1%;
+  background-color:  #282828;
+  color: white;
+  border-radius: 2% solid #282828;
+  font-weight: bold;
+  
+}
+
+.fifthheading {
+  margin: 4%;
+  height: 75%;
+  width: 50%;
+  /* border: 2px solid black; */
+  position: absolute;
+  left: 45%;
+  top: -10%;
+}
+img {
+  height: 85%;
+  width: 80%;
+  justify-content: center;
+  
+}
+
+
+
+.div-1 {
+  margin-top: 3%;
+
+  
+}
+.div-2 {
+  margin-top: 3%;
+  margin-right: 10%;
+  text-align: right;
+  
+}
+.list-1 {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  list-style: none;
+}
+
+.list-2 {
+  margin: 3%;
+  list-style: none;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 100%;
+}
+
+.logo {
+  padding-bottom: 20px;
+}
+
+.logo-1 {
+  width: 30px;
+}
+
+.logo-2 {
+  width: 30px;
+}
